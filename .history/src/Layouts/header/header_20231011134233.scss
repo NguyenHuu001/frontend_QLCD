@@ -1,0 +1,34 @@
+.header {
+    position: relative;
+    text-transform: uppercase;
+}
+.title_header {
+    position: absolute;
+    color: #fff;
+}
+.header_item:hover{
+    cursor: pointer;
+    color: #0b46e9;
+    transition: all linear 0.4s;
+}
+.menu {
+    width: 100%;
+    height: 50px;
+    padding-left: 100px;
+    background: #f2a9ae3e;
+    line-height: 50px;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+    text-align: center;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 35px;
+}
